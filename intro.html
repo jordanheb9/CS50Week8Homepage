@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>About Me</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+        <link href="styles.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/d23daa5a64.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+    </head>
+
+    <body class="background">
+
+        <div>
+
+            <nav class="navbar fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">Navigation</a>
+                    <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#menuToggle">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="menuToggle" style>
+                        <ul class="navbar-nav me-auto mb-2">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="intro.html">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="lagniappe.html">Lagniappe</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Page Title -->
+            <h1 class="title">ABOUT ME</h1>
+        </div>
+
+        <!-- Accordion feature with biography bullet points about me -->
+        <div class="container">
+            <div class="accordion" id="bioAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#general">
+                            General
+                        </button>
+                    </h2>
+                    <div id="general" class="accordion-collapse collapse" data-bs-parent="#bioAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>
+                                    My name is Jordan Hebert.
+                                </li>
+                                <li>
+                                    I enjoy coding, video games, and being active outdoors.
+                                </li>
+                                <li>
+                                    This is the first webpage I have ever created!
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#origin">
+                            Where I am From
+                        </button>
+                    </h2>
+                    <div id="origin" class="accordion-collapse collapse" data-bs-parent="#bioAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>I am from the beautiful state of Louisiana.</li>
+                                <li>I graduated from Louisiana State University. GEAUX TIGERS!</li>
+                                <li>I call the city of New Orleans my home.</li>
+                                <li>We love crawfish, jazz music, and good times.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dreams">
+                            Goals
+                        </button>
+                    </h2>
+                    <div id="dreams" class="accordion-collapse collapse" data-bs-parent="#bioAccordion">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>I am working hard to break into the tech industry.</li>
+                                <li>My mission is to make people's lives more efficient.</li>
+                                <li>I aim to learn everything I can about computer science!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

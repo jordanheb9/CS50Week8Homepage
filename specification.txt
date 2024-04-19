@@ -1,0 +1,23 @@
+HTML Tags:
+1. <link>
+2. <meta>
+3. <hX>
+4. <div>
+5. <ul>
+6. <li>
+7. <nav>
+8. <p>
+9. <br>
+10. <button>
+
+
+CSS Properties:
+1. color
+2. position
+3. margin
+4. text-align
+5. font-weight
+
+
+My main use for Bootstrap was to add a custom navigation bar to my website,
+and my main uses of JavaScript have been to validate emails on my contact page, and adding animations to pages.
